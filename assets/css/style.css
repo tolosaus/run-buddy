@@ -239,6 +239,8 @@ section {
 
 /*What We Do Style ends */
 
+/*What You Do Style */
+
 .steps {
 
     text-align: center;
@@ -311,5 +313,91 @@ section {
 .steps span {
 
     font-size: 38px;
+
+}
+
+/*What You Do style ends */
+
+/*Meet the Trainer style begins */
+
+.trainers {
+
+    text-align: center;
+
+    overflow: auto;
+
+}
+
+.trainer {
+
+    width: 900px;
+
+    margin: 0 auto 30px auto;
+
+    background: #024e76;
+
+    color: #fce138;
+
+    overflow: auto;
+
+}
+
+.trainer img {
+
+    width: 35%;
+
+    float: left;
+
+    overflow: auto;
+
+}
+
+.trainer-bio {
+
+    padding: 35px;
+
+    float: left;
+
+    width: 65%;
+
+    overflow: auto; 
+
+}
+
+.text-left {
+
+    text-align: left;
+
+}
+
+.text-right {
+
+    text-align: right;
+
+}
+
+.trainer-bio h3 {
+
+    font-size:32 px;
+
+    margin-bottom: 8px;
+
+}
+
+.trainer-bio h4 {
+
+    font-weight: lighter;
+
+    font-size: 26px;
+
+    margin-bottom: 25px;
+
+    }
+
+.trainer-bio p {
+
+    font-size: 17px;
+
+    line-height: 1.3;
     
 }
